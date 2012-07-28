@@ -4,7 +4,7 @@
 	"manifest_version": 2,
 	"description": "Add tags to chatty users.",
 	"content_scripts": [{
-		"matches": ["http://www.shacknews.com/chatty.x*"],
+		"matches": ["http://www.shacknews.com/chatty*"],
 		"css": ["css/shackertags.css"],
 		"js": [
 			"js/jquery.js",
