@@ -1,0 +1,73 @@
+span.add_tag {
+	width: 15px;
+	height: 9px;
+	margin-left: 2px;
+	background-repeat: no-repeat;
+	background-image: url('chrome-extension://__MSG_@@extension_id__/img/tag_off.png');
+	display: inline-block;
+	cursor: pointer;
+	position: relative;
+}
+
+span.add_tag:hover {
+	background-image: url('chrome-extension://__MSG_@@extension_id__/img/tag_on.png');
+}
+
+div.div_add_tag {
+
+	font-size: 11px !important;
+	color: #666 !important;
+	position: absolute;
+	background-color: black;
+	border-radius: 5px;
+	border: 1px solid #7a7a6d;
+	z-index: 10000;
+	cursor: default;
+}
+
+form.form_add_tag {
+	margin: 5px !important;
+}
+
+form.form_add_tag legend {
+	display: none;
+}
+
+form.form_add_tag li {
+	background-image: none !important;
+	padding: 0 !important;
+}
+
+fieldset.fieldset_actions li {
+	display: inline-block;
+}
+
+fieldset.fieldset_actions button {
+	border-radius: 5px !important;
+	padding: 3px !important;
+	cursor: pointer !important;
+}
+
+fieldset.fieldset_actions button:hover {
+	color: yellow;
+}
+
+span.shackertag {
+	border: 1px solid #666;
+	border-radius: 3px;
+	padding: 0px;
+	background-color:#444 !important;
+}
+
+span.shackertag a:link,
+span.shackertag a:active,
+span.shackertag a:visited,
+span.shackertag a:hover {
+	font-weight: bold !important;
+	font-size: 8px !important;
+	color: #999 !important;
+	background-color:#444 !important;
+	text-decoration: none !important;
+	text-shadow: none !important;
+	padding: 0 !important;
+}
