@@ -5,7 +5,7 @@ Adds RES-like tagging to the chatty.
 Install
 -------
 Install via the [Chrome Web Store](https://chrome.google.com/webstore/detail/gedoafpenbkphidiebbejlfajofogghh).
-Install the [Safari extension](https://github.com/downloads/yakz/shackertags/shackertags.safariextz)
+Download the [Safari extension](https://github.com/downloads/yakz/shackertags/shackertags.safariextz). Double-click the file to install.
 
 Features
 --------
