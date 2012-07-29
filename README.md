@@ -22,11 +22,11 @@ Requirements
 
 Chrome
 	
-	I'm using DOM observers which hit the stable branch at 18, I think. So it'll only work with that version or above. I'm not actually sure if it will work with anything less than 21, though, because that's all I've tested it with.
+> I'm using DOM observers which hit the stable branch at 18, I think. So it'll only work with that version or above. I'm not actually sure if it will work with anything less than 21, though, because that's all I've tested it with.
 
 Safari
 
-	I've only tested it with Safari 6.
+> I've only tested it with Safari 6.
 
 Notes
 -----
