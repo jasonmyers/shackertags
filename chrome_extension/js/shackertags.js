@@ -24,6 +24,12 @@
       this.button_add = $(this.node.find('.button_add'));
       this.input_tag = $(this.node.find('.input_tag_text'));
       this.input_link = $(this.node.find('.input_tag_link'));
+      this.input_tag.keydown(function(event) {
+        return event.stopPropagation();
+      });
+      this.input_link.keydown(function(event) {
+        return event.stopPropagation();
+      });
       this.button_add.click(this.save);
       this.button_cancel.click(this.close);
       this.input_link.val(this.parent.get_post_link());

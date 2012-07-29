@@ -13,6 +13,12 @@ class add_tag_form
 		@input_tag = $(@node.find '.input_tag_text')
 		@input_link = $(@node.find '.input_tag_link')
 
+		# Eat keydown (chatty uses this to move between selected posts)
+		@input_tag.keydown (event) ->
+			event.stopPropagation();
+		@input_link.keydown (event) ->
+			event.stopPropagation();
+
 		# Bind events
 		@button_add.click @save
 		@button_cancel.click @close
