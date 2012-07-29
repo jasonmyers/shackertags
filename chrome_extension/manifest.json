@@ -1,8 +1,10 @@
 {
 	"name": "shackertags",
 	"version": "1",
+	"minimum_chrome_version": "21",
 	"manifest_version": 2,
 	"description": "Add tags to chatty users.",
+	"icons": { "128":"icon_128.png", "48":"icon_48.png"},
 	"content_scripts": [{
 		"matches": ["http://www.shacknews.com/chatty*"],
 		"css": ["css/shackertags.css"],
