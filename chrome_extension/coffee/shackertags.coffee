@@ -27,6 +27,7 @@ class shackertags
 				if node.hasClass('fullpost')
 					window.shackertags.root_posts.push(new st_root_post(node))
 
+	# Generate a unique identifier.
 	create_guid: =>
 		'xxxxxxxx_xxxx_4xxx_yxxx_xxxxxxxxxxxx'.replace(/[xy]/g, (c) =>
     		r = Math.random()*16|0

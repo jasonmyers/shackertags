@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Author</key>
+	<string>yakz</string>
+	<key>Builder Version</key>
+	<string>8536.25</string>
+	<key>CFBundleDisplayName</key>
+	<string>shackertags</string>
+	<key>CFBundleIdentifier</key>
+	<string>com.yakz.shackertags</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleShortVersionString</key>
+	<string>1.0</string>
+	<key>CFBundleVersion</key>
+	<string>1</string>
+	<key>Chrome</key>
+	<dict>
+		<key>Database Quota</key>
+		<real>5242880</real>
+	</dict>
+	<key>Content</key>
+	<dict>
+		<key>Scripts</key>
+		<dict>
+			<key>Start</key>
+			<array>
+				<string>underscore.js</string>
+				<string>jquery.js</string>
+				<string>shackertags.js</string>
+			</array>
+		</dict>
+		<key>Stylesheets</key>
+		<array>
+			<string>shackertags.css</string>
+		</array>
+		<key>Whitelist</key>
+		<array>
+			<string>http://www.shacknews.com/chatty*</string>
+		</array>
+	</dict>
+	<key>Description</key>
+	<string>Add tags to chatty users.</string>
+	<key>ExtensionInfoDictionaryVersion</key>
+	<string>1.0</string>
+	<key>Permissions</key>
+	<dict>
+		<key>Website Access</key>
+		<dict>
+			<key>Allowed Domains</key>
+			<array>
+				<string>*.shacknews.com</string>
+				<string>shacknews.com</string>
+			</array>
+			<key>Level</key>
+			<string>Some</string>
+		</dict>
+	</dict>
+	<key>Website</key>
+	<string>https://github.com/yakz/shackertags</string>
+</dict>
+</plist>

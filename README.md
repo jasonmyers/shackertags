@@ -5,6 +5,7 @@ Adds RES-like tagging to the chatty.
 Install
 -------
 Install via the [Chrome Web Store](https://chrome.google.com/webstore/detail/gedoafpenbkphidiebbejlfajofogghh).
+Install the [Safari extension](https://github.com/downloads/yakz/shackertags/shackertags.safariextz)
 
 Features
 --------
@@ -18,11 +19,20 @@ Features
 
 Requirements
 ------------
-I'm using DOM observers which hit the stable branch at 18, I think. So it'll only work with that version or above. I'm not actually sure if it will work with anything less than 21, though, because that's all I've tested it with.
+
+Chrome
+	
+	I'm using DOM observers which hit the stable branch at 18, I think. So it'll only work with that version or above. I'm not actually sure if it will work with anything less than 21, though, because that's all I've tested it with.
+
+Safari
+
+	I've only tested it with Safari 6.
 
 Notes
 -----
 I've barely done any work on this, just enough to get the functionality I wanted. There are parts that could be heavily optimized, and the object hierarchy is pretty half-assed. And, I've barely tested it. Don't expect much. Feel free to log issues, or send pull requests if you'd rather just fix it.
+
+The current Safari extension is just a hack of the javascript output from the coffee-script compiler. A proper version with a single code base may follow.
 
 Future
 ------
