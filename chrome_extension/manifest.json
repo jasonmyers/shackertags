@@ -1,7 +1,7 @@
 {
 	"name": "shackertags",
-	"version": "1",
-	"minimum_chrome_version": "21",
+	"version": "1.1",
+	"minimum_chrome_version": "18",
 	"manifest_version": 2,
 	"description": "Add tags to chatty users.",
 	"icons": { "128":"icon_128.png", "48":"icon_48.png"},
