@@ -131,7 +131,7 @@
 
     shackertags.prototype.set_constants = function() {
       this.constants = {};
-      this.constants.HTML_ADD_TAG = "<span class=\"add_tag\"></span>";
+      this.constants.HTML_ADD_TAG = "<span class=\"add_tag\" title=\"Tag this post\"></span>";
       return this.constants.HTML_FORM_ADD_TAG = "<div class=\"div_add_tag\">\n	<form class=\"form_add_tag\">\n		<fieldset>\n			<legend>Add a tag</legend>\n			<ol>\n				<li>\n					<label for=\"input_tag_text\">Tag</label>\n					<input class=\"input_tag_text\" required name=\"input_tag_text\" type=\"text\" placeholder=\"Tag\"/>\n				</li>\n				<li>\n					<label for=\"input_tag_link\">Link</label>\n					<input class=\"input_tag_link\" name=\"input_tag_link\" type=\"text\" placeholder=\"http://foo.bar/\"/>\n				</li>\n			</ol>\n		</fieldset>\n		<fieldset class=\"fieldset_actions\">\n			<legend>Actions</legend>\n			<ol>\n				<li><button class=\"button_add\">Add</button></li>\n				<li><button class=\"button_cancel\">Cancel</button></li>\n			</ol>\n		</fieldset>\n	</form>\n</div>";
     };
 
