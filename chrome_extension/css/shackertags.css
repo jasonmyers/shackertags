@@ -13,6 +13,14 @@ span.add_tag:hover {
 	background-image: url('chrome-extension://__MSG_@@extension_id__/img/tag_on.png');
 }
 
+div.capcontainer div.oneline span.add_tag {
+visibility: hidden;
+}
+
+div.capcontainer div.oneline:hover span.add_tag {
+visibility: visible;
+}
+
 div.div_add_tag {
 
 	font-size: 11px !important;
